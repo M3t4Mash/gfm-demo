@@ -3,7 +3,16 @@ layout: default
 title: Start page of the gfm demo
 ---
 
-Some content should be added
+# Project name
+This project provides a service that does something useful. It provides the following features:
+* item 1
+* item 2
+* item 3
+* item 4
 
-## Section 2
-Even more content.
+## Related Topics
+* [Deployment](deployment.md)
+* [Troubleshooting](troubleshooting.md)
+
+## Owner
+Team Mandala owns this project. For further information get in touch with [StimpyKatz](https://github.com/StimpyKatz)
