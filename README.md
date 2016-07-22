@@ -6,7 +6,7 @@ This project provides a service that does something useful. It provides the foll
 * item 4
 
 ## Related Topics
-* [Deployment](deployment.md)
+* [Deployment](/doc/deployment.md)
 * [Troubleshooting](troubleshooting.md)
 
 ## Owner
