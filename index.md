@@ -11,7 +11,7 @@ This project provides a service that does something useful. It provides the foll
 * item 4
 
 ## Related Topics
-* [Deployment](deployment.md)
+* [Deployment](deployment.html)
 * [Troubleshooting](troubleshooting.md)
 
 ## Owner
