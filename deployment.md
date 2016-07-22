@@ -1,3 +1,8 @@
+---
+layout: default
+title: Deployment
+---
+
 # Deployment
 To deploy the service of this project, proceed as follows:
 
@@ -7,3 +12,5 @@ To deploy the service of this project, proceed as follows:
 
 ## Further Steps
 Now you can start trying your fancy swagger stuff.
+
+{{% include module.md %}}
