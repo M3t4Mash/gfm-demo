@@ -5,6 +5,7 @@ title: Start page of the gfm demo
 
 # Project name
 This project provides a service that does something useful. It provides the following features:
+
 * item 1
 * item 2
 * item 3
