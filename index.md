@@ -24,8 +24,8 @@ This project provides a service that does something useful. It provides the foll
 {{ 'Hello world' }}
 
 Site collections: {{site.collections}}
-{% for collection in site.collections %}
-  {{ collection }}
+{% for i in site.collections %}
+  {{ i.label }}
 {% endfor %}
 
 Page url: {{page.url}}
