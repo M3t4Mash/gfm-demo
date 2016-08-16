@@ -27,3 +27,5 @@ Documents: {{site.troubleshooting.docs}}
 
 ## Owner
 Team Mandala owns this project. For further information get in touch with [StimpyKatz](https://github.com/StimpyKatz)
+
+Rendered at {{page.date}}
