@@ -2,5 +2,5 @@ name: gfm-demo site
 markdown: kramdown
 collection:
  - troubleshooting:
-    output: true
-    permalink: /troubleshooting/:path/
+   output: true
+   permalink: /troubleshooting/:path/

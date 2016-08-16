@@ -22,7 +22,10 @@ This project provides a service that does something useful. It provides the foll
 {% endfor %}
 
 {{ 'Hello world' }}
+
 Site collections: {{site.collections}}
+
+Page url: {{page.url}}
 
 ## Owner
 Team Mandala owns this project. For further information get in touch with [StimpyKatz](https://github.com/StimpyKatz)
