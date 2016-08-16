@@ -5,3 +5,4 @@ markdown: kramdown
 collections:
   troubleshooting:
     output: true
+    permalink: /troubleshooting/:path/
