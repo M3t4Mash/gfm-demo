@@ -1,4 +1,7 @@
+---
 name: gfm-demo site
 markdown: kramdown
+
 collection:
- - troubleshooting
+  troubleshooting:
+    output: true
