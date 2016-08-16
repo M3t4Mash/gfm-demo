@@ -15,5 +15,12 @@ This project provides a service that does something useful. It provides the foll
 * [Deployment](deployment.html)
 * [Troubleshooting](troubleshooting.md)
 
+## Troubleshooting			
+{% for faq in site.troubleshooting limit:3 %}
+  <li>				
+	<a href="{{ faq.url }}">{{ faq.title }}</a>				
+  </li>
+{% endfor %}
+
 ## Owner
 Team Mandala owns this project. For further information get in touch with [StimpyKatz](https://github.com/StimpyKatz)
