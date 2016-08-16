@@ -2,6 +2,6 @@
 name: gfm-demo site
 markdown: kramdown
 
-collection:
+collections:
   troubleshooting:
     output: true
