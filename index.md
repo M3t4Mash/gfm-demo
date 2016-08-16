@@ -14,21 +14,14 @@ This project provides a service that does something useful. It provides the foll
 ## Related Topics
 * [Deployment](deployment.html)
 
-## Troubleshooting			
-{% for faq in site.troubleshooting limit:3 %}
+## Troubleshooting
+<ul>			
+{% for faq in site.troubleshooting %}
   <li>				
 	<a href="{{ faq.url }}">{{ faq.title }}</a>				
   </li>
 {% endfor %}
-
-{{ 'Hello world' }}
-
-Site collections: {{site.collections}}
-{% for i in site.collections %}
-  {{ i.label }}
-{% endfor %}
-
-Page url: {{page.url}}
+</ul>
 
 ## Owner
 Team Mandala owns this project. For further information get in touch with [StimpyKatz](https://github.com/StimpyKatz)
