@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Troubleshooting 01
+title: Not Responding
 ---
 
 # Service not Responding

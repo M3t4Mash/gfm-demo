@@ -13,7 +13,6 @@ This project provides a service that does something useful. It provides the foll
 
 ## Related Topics
 * [Deployment](deployment.html)
-* [Troubleshooting](troubleshooting.md)
 
 ## Troubleshooting			
 {% for faq in site.troubleshooting limit:3 %}
@@ -21,6 +20,9 @@ This project provides a service that does something useful. It provides the foll
 	<a href="{{ faq.url }}">{{ faq.title }}</a>				
   </li>
 {% endfor %}
+
+{{ 'Hello world' }}
+Site collections: {{site.collections}}
 
 ## Owner
 Team Mandala owns this project. For further information get in touch with [StimpyKatz](https://github.com/StimpyKatz)
