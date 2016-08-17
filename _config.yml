@@ -1,8 +1,9 @@
 ---
 name: gfm-demo site
 markdown: kramdown
+url: "https://stimpykatz.github.io/gfm-demo/"
 
 collections:
   troubleshooting:
     output: true
-    permalink: /troubleshooting/:path/
+#    permalink: /troubleshooting/:path/
