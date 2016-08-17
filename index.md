@@ -23,7 +23,7 @@ This project provides a service that does something useful. It provides the foll
 {% endfor %}
 </ul>
 
-Documents: {{site.troubleshooting.docs}}
+Documents: {{site.troubleshooting}}
 
 ## Owner
 Team Mandala owns this project. For further information get in touch with [StimpyKatz](https://github.com/StimpyKatz)
