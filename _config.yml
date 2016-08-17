@@ -1,7 +1,7 @@
 ---
 name: gfm-demo site
 markdown: kramdown
-url: "https://stimpykatz.github.io/gfm-demo/"
+baseurl: "/gfm-demo"
 
 collections:
   troubleshooting:

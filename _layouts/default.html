@@ -19,7 +19,7 @@
 				<ul>			
 				{% for faq in site.troubleshooting %}
 				  <li>				
-					<a href="{{ faq.url }}">{{ faq.title }}</a>				
+					<a href="{{ site.baseurl }}{{ faq.url }}">{{ faq.title }}</a>				
 				  </li>
 				{% endfor %}
 				</ul>
