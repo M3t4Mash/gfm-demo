@@ -1,7 +1,7 @@
 {% assign collectionName = {{ include.currCollection }} | split: "_" %}
 {% assign collectionLabel = {{ collectionName[1] }} | capitalize %}
 
-collectionName: '{{ collectionName | size }}'
+collectionName: '{{ collectionName }}'
 
 {% for i in collectionName %}
   {{ i }}
