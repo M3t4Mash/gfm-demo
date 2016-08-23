@@ -14,18 +14,6 @@ This project provides a service that does something useful. It provides the foll
 ## Related Topics
 * [Deployment](deployment.html)
 
-{% if site.doc-troubleshooting %}
-<h2 id="doc-troubleshooting">Troubleshooting</h2>
-<ul>			
-{% for faq in site.doc-troubleshooting %}
-  <li>				
-	<a href="{{ site.baseurl }}{{ faq.url }}">{{ faq.title }}</a>				
-  </li>
-{% endfor %}
-</ul>
-{% endif %}
-
-## Function Test
 {% include listCollection currCollection="doc-troubleshooting" %}
 
 ## Image test
