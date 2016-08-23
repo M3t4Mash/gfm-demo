@@ -3,4 +3,10 @@
 
 collectionLowerCaseLabel: '{{ collectionLowerCaseLabel | size }}'
 
+{% for i in collectionLowerCaseLabel %}
+  {{ i }}
+  
+  
+{% endfor %}
+
 collectionLabel: '{{ collectionLabel }}'
