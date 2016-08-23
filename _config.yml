@@ -4,6 +4,9 @@ markdown: kramdown
 baseurl: "/gfm-demo"
 
 collections:
-  troubleshooting:
+  doc-troubleshooting:
+    output: true
+#    permalink: /troubleshooting/:path/
+  doc-interfaces:
     output: true
 #    permalink: /troubleshooting/:path/

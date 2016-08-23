@@ -18,4 +18,4 @@ This project provides a service that does something useful. It provides the foll
 ## Owner
 Team Mandala owns this project. For further information get in touch with [StimpyKatz](https://github.com/StimpyKatz)
 
-Rendered at {{page.date}}
+Rendered at '{{date}}'
