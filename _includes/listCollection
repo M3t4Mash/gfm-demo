@@ -9,4 +9,13 @@ collectionLowerCaseLabel: '{{ collectionLowerCaseLabel | size }}'
   
 {% endfor %}
 
+
+{% assign beatles = "John, Paul, George, Ringo" | split: ", " %}
+
+{% for member in beatles %}
+  {{ member }}
+{% endfor %}
+
+
+
 collectionLabel: '{{ collectionLabel }}'
