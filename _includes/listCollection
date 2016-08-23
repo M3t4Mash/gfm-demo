@@ -1,9 +1,9 @@
-{% assign collectionName = "{{ include.currCollection }}" | split: "_" %}
-{% assign collectionLabel = {{ collectionLowerCaseLabel[1] }} | capitalize %}
+{% assign collectionName = {{ include.currCollection }} | split: "_" %}
+{% assign collectionLabel = {{ collectionName[1] }} | capitalize %}
 
-collectionLowerCaseLabel: '{{ collectionLowerCaseLabel | size }}'
+collectionName: '{{ collectionName | size }}'
 
-{% for i in collectionLowerCaseLabel %}
+{% for i in collectionName %}
   {{ i }}
   
   
