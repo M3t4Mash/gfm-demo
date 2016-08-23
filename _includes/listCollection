@@ -1,4 +1,4 @@
-{% assign collectionName = {{ include.currCollection | split: "_" }} %}
+{% assign collectionName = include.currCollection | split: "_" %}
 {% assign collectionLabel = {{ collectionName[1] }} | capitalize %}
 
 collectionName: '{{ collectionName }}'
