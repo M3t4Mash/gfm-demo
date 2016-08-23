@@ -1,9 +1,9 @@
-{% capture collectionVar %}site.{{ include.currCollection }}{% endcapture %}
-{% assign collectionName = include.currCollection | split: "-" %}
+{% capture collectionVar %}site.{{ include.collection }}{% endcapture %}
+{% assign collectionName = include.collection | split: "-" %}
 {% assign collectionLabel = collectionName[1] | capitalize %}
-<h2 id="{{ include.currCollection }}">{{ collectionLabel }}</h2>
+<h2 id="{{ include.collection }}">{{ collectionLabel }}</h2>
 <ul>			
-{% for i in site.[include.currCollection] %}
+{% for i in site.[include.collection] %}
   <li>				
 	<a href="{{ site.baseurl }}{{ i.url }}">{{ i.title }}</a>				
   </li>

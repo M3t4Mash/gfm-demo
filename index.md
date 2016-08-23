@@ -14,10 +14,9 @@ This project provides a service that does something useful. It provides the foll
 ## Related Topics
 * [Deployment](deployment.html)
 
-{% include listCollection currCollection="doc-troubleshooting" %}
+{% include listCollection collection="doc-troubleshooting" %}
 
 ## Image test
-![Millo goes to colleague]({{ site.baseurl }}/doc-images/milo.jpg | width=100)
 {% include addImage file="milo.jpg" caption="Millo goes to colleague" width="100" %}
 
 ## Owner
