@@ -8,7 +8,7 @@ collectionVar: '{{ collectionVar }}'
 
 <h2 id="{{ include.currCollection }}">{{ collectionLabel }}</h2>
 <ul>			
-{% for i in collectionVar %}
+{% for i in site.[include.currCollection] %}
   <li>				
 	<a href="{{ site.baseurl }}{{ i.url }}">{{ i.title }}</a>				
   </li>
