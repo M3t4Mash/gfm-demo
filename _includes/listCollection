@@ -3,6 +3,8 @@
 
 collectionName: '{{ collectionName }}'
 
+include.currCollection: {{ include.currCollection }}
+
 {% for i in collectionName %}
   {{ i }}
   
