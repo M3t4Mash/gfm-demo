@@ -10,3 +10,6 @@ collections:
   doc-interfaces:
     output: true
 #    permalink: /troubleshooting/:path/
+  doc-images:
+    output: true
+#    permalink: /troubleshooting/:path/
