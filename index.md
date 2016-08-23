@@ -29,7 +29,7 @@ This project provides a service that does something useful. It provides the foll
 {% include list-collection.md currCollection=doc_troubleshooting %}
 
 ## Image test
-![Millo goes to colleague]({{ site.baseurl }}/doc-images/milo.jpg)
+![Millo goes to colleague]({{ site.baseurl }}/doc-images/milo.jpg =100x)
 
 ## Owner
 Team Mandala owns this project. For further information get in touch with [StimpyKatz](https://github.com/StimpyKatz)
