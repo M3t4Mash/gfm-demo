@@ -3,9 +3,12 @@
 {% assign collectionLabel = collectionName[1] | capitalize %}
 
 collectionLabel: '{{ collectionLabel }}'
+
+collectionVar: '{{ collectionVar }}'
+
 <h2 id="{{ include.currCollection }}">{{ collectionLabel }}</h2>
 <ul>			
-{% for i in {{ collectionVar }} %}
+{% for i in collectionVar %}
   <li>				
 	<a href="{{ site.baseurl }}{{ i.url }}">{{ i.title }}</a>				
   </li>
