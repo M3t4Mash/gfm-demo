@@ -1,6 +1,6 @@
 {% capture collectionLowerCaseLabel %}{{ include.currCollection | split: "_" }}{% endcapture %}
 {% assign collectionLabel = {{ collectionLowerCaseLabel[1] }} | capitalize %}
 
-collectionLowerCaseLabel: '{{ collectionLowerCaseLabel }}'
+collectionLowerCaseLabel: '{{ collectionLowerCaseLabel | size }}'
 
 collectionLabel: '{{ collectionLabel }}'
