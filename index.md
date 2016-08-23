@@ -26,10 +26,11 @@ This project provides a service that does something useful. It provides the foll
 {% endif %}
 
 ## Function Test
-{% include list-collection.md currCollection=doc_troubleshooting %}
+{% include listCollection.md currCollection=doc_troubleshooting %}
 
 ## Image test
 ![Millo goes to colleague]({{ site.baseurl }}/doc-images/milo.jpg | width=100)
+{% include includeImage file="milo.jpg" caption="Millo goes to colleague" width="100" %}
 
 ## Owner
 Team Mandala owns this project. For further information get in touch with [StimpyKatz](https://github.com/StimpyKatz)
