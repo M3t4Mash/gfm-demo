@@ -3,7 +3,7 @@
 
 collectionName: '{{ collectionName }}'
 
-include.currCollection: {{ include.currCollection | split: "_" }}
+include.currCollection: {{ include.currCollection | split: "_" }}[1]
 
 {% for i in collectionName %}
   {{ i }}
