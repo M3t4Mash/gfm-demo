@@ -26,7 +26,7 @@ This project provides a service that does something useful. It provides the foll
 {% endif %}
 
 ## Function Test
-{% include listCollection.md currCollection=doc_troubleshooting %}
+{% include listCollection.md currCollection="doc_troubleshooting" %}
 
 ## Image test
 ![Millo goes to colleague]({{ site.baseurl }}/doc-images/milo.jpg | width=100)
