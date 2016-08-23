@@ -1,23 +1,6 @@
-{% assign collectionName = {{ include.currCollection }} | split: "_" %}
+{% assign collectionName = {{ include.currCollection | split: "_" }} %}
 {% assign collectionLabel = {{ collectionName[1] }} | capitalize %}
 
 collectionName: '{{ collectionName }}'
 
-include.currCollection: {{ include.currCollection | split: "_" }}[1]
-
-{% for i in collectionName %}
-  {{ i }}
-  
-  
-{% endfor %}
-
-
-{% assign beatles = "John, Paul, George, Ringo" | split: ", " %}
-
-{% for member in beatles %}
-  {{ member }}
-{% endfor %}
-
-
-
-collectionLabel: '{{ collectionLabel }}'
+include.currCollection: {{ include.currCollection | split: "_" }}
