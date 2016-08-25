@@ -22,6 +22,8 @@ repository_nwo: '{{site.github.repository_nwo}}'
 
 {% include listCollection collection="doc-troubleshooting" %}
 
+{% include listCollection collection="doc-interfaces" %}
+
 ## Image test
 {% include addImage file="milo.jpg" caption="Milo goes to college" width="100" %}
 
