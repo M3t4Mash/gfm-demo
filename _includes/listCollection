@@ -1,7 +1,7 @@
 {% capture collectionVar %}site.{{ include.collection }}{% endcapture %}
 {% assign collectionName = include.collection | split: "-" %}
 {% assign collectionLabel = collectionName[1] | capitalize %}
-{% if site.[include.collection].docs.size = 0 %}
+{% if site.[include.collection].docs.size == 0 %}
 Dock size is 0.
 {% endif %}
 <h2 id="{{ include.collection }}">{{ collectionLabel }}</h2>
