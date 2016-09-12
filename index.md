@@ -27,5 +27,13 @@ repository_nwo: '{{site.github.repository_nwo}}'
 ## Image test
 {% include addImage file="milo.jpg" caption="Milo goes to college" width="100" %}
 
+## Collection Tester
+{% for i in site.doc-teams %}
+{% assign currUrl = i.relative_path | split: "/" %}
+  <li>				
+	<a href="{{ site.baseurl }}{{ i.url }}">{{ i.title }} {{ currUrl }}</a>				
+  </li>
+{% endfor %}
+
 ## Owner
 Team Mandala owns this project. For further information get in touch with [StimpyKatz](https://github.com/StimpyKatz)
