@@ -31,7 +31,7 @@ repository_nwo: '{{site.github.repository_nwo}}'
 {% for i in site.doc-teams %}
 {% assign currUrl = i.relative_path | split: "/" %}
   <li>				
-	<a href="{{ site.baseurl }}{{ i.url }}">{{ i.title }} {{ currUrl }}</a>				
+	<a href="{{ site.baseurl }}{{ i.url }}">{{ i.title }} {{ currUrl[ {{ currUrl | size }} - 1] }}</a>				
   </li>
 {% endfor %}
 
