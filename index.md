@@ -30,8 +30,9 @@ repository_nwo: '{{site.github.repository_nwo}}'
 ## Collection Tester
 {% for i in site.doc-teams %}
 {% assign currUrl = i.relative_path | split: "/" %}
+{% assign currTeam = currUrl[ currUrl | size - 1] %}
   <li>				
-	<a href="{{ site.baseurl }}{{ i.url }}">{{ i.title }} {{ currUrl[ {{ currUrl | size }} - 1] }}</a>				
+	<a href="{{ site.baseurl }}{{ i.url }}">{{ i.title }} {{ currTeam }}</a>				
   </li>
 {% endfor %}
 
