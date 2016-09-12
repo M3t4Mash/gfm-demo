@@ -13,3 +13,6 @@ collections:
   doc-images:
     output: true
 #    permalink: /troubleshooting/:path/
+  doc-teams:
+    output: true
+#    permalink: /troubleshooting/:path/
