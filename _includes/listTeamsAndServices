@@ -20,8 +20,7 @@
  <ul>
   {% for page in teamPages %}
    {% assign pageUrl = page.relative_path | split: "/" %}
-   {% assign currParentTeam = pageUrl[1] %}
-   {{currParentTeam}} vs {{uri}}
+   {% assign currParentTeam = pageUrl[1] %}   
    {% if currParentTeam == uri %}   
    <li>
    <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>		
