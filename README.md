@@ -1,1 +1,2 @@
-For documentation of this service, see https://stimpykatz.github.io/gfm-demo/ .
+# gfm-demo_team-green
+Team Greens docu repo
