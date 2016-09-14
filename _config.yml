@@ -1,0 +1,18 @@
+---
+name: gfm-demo site
+markdown: kramdown
+baseurl: "/gfm-demo"
+
+collections:
+  doc-troubleshooting:
+    output: true
+#    permalink: /troubleshooting/:path/
+  doc-interfaces:
+    output: true
+#    permalink: /troubleshooting/:path/
+  doc-images:
+    output: true
+#    permalink: /troubleshooting/:path/
+  doc-teams:
+    output: true
+#    permalink: /troubleshooting/:path/

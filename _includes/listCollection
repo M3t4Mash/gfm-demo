@@ -1,0 +1,14 @@
+{% assign collectionName = include.collection | split: "-" %}
+{% assign collectionLabel = collectionName[1] | capitalize %}
+{% if site.[include.collection].docs.size == '0' %}
+Dock size is 0.
+{% endif %}
+<h2 id="{{ include.collection }}">{{ collectionLabel }}</h2>
+numbers of docs: {{site.collections.doc-troubleshooting.docs}}
+<ul>			
+{% for i in site.[include.collection] %}
+  <li>				
+	<a href="{{ site.baseurl }}{{ i.url }}">{{ i.title }}</a>				
+  </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,31 @@
+{% assign distinctTeamUris = '' | split: ',' %}
+{% assign distinctServiceUris = '' | split: ',' %}
+{% assign teamPages = site.doc-teams | sort: 'relative_path' %}
+
+{% for page in teamPages %}
+ {% assign currUrl = page.relative_path | split: "/" %}
+ {% assign currTeam = currUrl[1] %}
+ 
+ {% unless currTeam == previous %} 
+  {% assign newUri = currUrl[0] | append: '/' | append: currUrl[1] %}
+  {% assign distinctTeamUris = distinctTeamUris | push: currTeam %}  
+ {% endunless %} 
+ {% assign previous = currTeam %}
+{% endfor %}
+
+{% for uri in distinctTeamUris %}
+ {% assign currTeamLabel = uri | split: "_" %}
+ {% capture headingLabel %}{% for word in currTeamLabel %}{{ word | capitalize }} {% endfor %}{% endcapture %}
+ <h2 id="{{ currTeam }}">{{ headingLabel }}</h2>
+ <ul>
+  {% for page in teamPages %}
+   {% assign pageUrl = page.relative_path | split: "/" %}
+   {% assign currParentTeam = pageUrl[1] %}   
+   {% if currParentTeam == uri %}   
+   <li>
+   <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>		
+   </li>
+   {% endif %}
+  {% endfor %} 
+ </ul>
+{% endfor %}
