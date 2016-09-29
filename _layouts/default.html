@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+{% assign teamName = page.url | split: '/' %}
+
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
@@ -10,7 +12,7 @@
 	    		<ul>
 	        		<li><a href="{{ site.baseurl }}/">Home</a></li>
 					<li><a href="{{ site.baseurl }}/">{{ page.team }}</a></li>
-					<li><a href="{{ site.path }}/">{{ page.path }}</a></li>
+					<li><a href="{{ site.path }}/">{{ teamName[2] }}</a></li>
 	    		</ul>
 			</nav>
 			<div class="container">
