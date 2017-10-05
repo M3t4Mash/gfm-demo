@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Start page of the gfm demo
+author2:HumptyDumpty
 ---
 
 # Project name
@@ -31,4 +32,4 @@ repository_nwo: '{{site.github.repository_nwo}}'
 {% include listTeamsAndServices %}
 
 ## Owner
-Team Mandala owns this project. For further information get in touch with [StimpyKatz](https://github.com/StimpyKatz)
+Team Mandala owns this project. For further information get in touch with [StimpyKatz](https://github.com/StimpyKatz) aka {{author2}}
