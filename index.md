@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Start page of the gfm demo
-author2: HumptyDumpty
+author: HumptyDumpty
+edit: {{date}}
 ---
 
 # Project name
