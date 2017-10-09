@@ -2,6 +2,7 @@
 name: gfm-demo site
 markdown: kramdown
 baseurl: "/gfm-demo"
+prodName: RulzEmAll
 
 collections:
   doc-troubleshooting:
