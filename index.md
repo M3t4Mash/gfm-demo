@@ -32,5 +32,8 @@ repository_nwo: '{{site.github.repository_nwo}}'
 ## Collection Tester 2
 {% include listTeamsAndServices %}
 
+## Tags Tester
+{{site.tags.Nope}}
+
 ## Owner
 Team Mandala owns this project. For further information get in touch with [StimpyKatz](https://github.com/StimpyKatz) aka {{page.author}} at {{page.date}} - {{date}}
