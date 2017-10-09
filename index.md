@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Start page of the gfm demo
-author: HumptyDumpty
+author: Humpty Dumpty
 edit: 
 ---
 
