@@ -13,6 +13,8 @@ This project provides a service that does something useful. It provides the foll
 * item 3
 * item 4
 
+All for the mighty {{site.prodName}}.
+
 # Variable Testing
 owner_name: '{{site.github.owner_name}}'
 repository_name: '{{site.github.repository_name}}'
