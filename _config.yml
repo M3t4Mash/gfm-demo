@@ -2,6 +2,7 @@
 name: gfm-demo site
 markdown: kramdown
 baseurl: "/gfm-demo"
+tagung: my tagung 2017
 
 collections:
   doc-troubleshooting:
